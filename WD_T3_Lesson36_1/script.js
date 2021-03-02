@@ -39,7 +39,7 @@ function examples(){
   console.log(build);
 
   //Challenge 9: Using string interpolation and the JSON variable w3schools, build a card that displays the title as heading and description as paragraph 
-  build = `<div>`;
+  build = `<div class="card">`;
   build += `  <h3> ${w3schools.title} </h3>`;
   build += `  <p> ${w3schools.description} </p>`;
   build += `</div>`;
